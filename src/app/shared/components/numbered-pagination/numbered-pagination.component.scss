@@ -1,0 +1,29 @@
+ol {
+  list-style: none;
+  margin-block: 0;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+.paginator-container {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  li {
+    text-align: center;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+
+    &.paginator-number {
+      width: 2rem;
+      padding: 0.25rem 0;
+    }
+
+    &.active {
+      color: #fff;
+      background-color: #00829a;
+    }
+  }
+}

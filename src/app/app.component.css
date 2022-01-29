@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+div {
+  text-align: center;
+  font-size: 10rem;
+}
+
+numbered-pagination {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}

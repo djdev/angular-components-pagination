@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  {{ page }}
+</div>
+
+<numbered-pagination
+  [index]="page"
+  (page)="pageEvent($event)"
+></numbered-pagination>
